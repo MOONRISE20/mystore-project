@@ -1,52 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="146.281" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="Product - Store" name="Validación del precio de un producto - Example #1.1" time="43.077">
+<testsuite name="Cucumber" time="192.326" tests="5" skipped="0" failures="3" errors="0">
+<testcase classname="Product - Store" name="Validación del precio de un producto - Example #1.1" time="62.923">
+<failure type="java.lang.AssertionError" message="No se mostró el popup de confirmación">
+<![CDATA[java.lang.AssertionError: No se mostró el popup de confirmación
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.nttdata.stepsdefinitions.ProductStepDefinitions.validoEnElPopupLaConfirmacionDelProductoAgregado(ProductStepDefinitions.java:177)
+	at ✽.valido en el popup la confirmación del producto agregado(file:///C:/Users/USUARIO/IdeaProjects/mystore-automation-web/src/test/resources/features/Product.feature:9)
+]]>
+</failure>
 <system-out><![CDATA[
 Dado estoy en la página de la tienda........................................passed
 Y me logueo con mi usuario "valia.tataje@gmail.com" y clave "Analista2025"..passed
 Cuando navego a la categoria "Clothes" y subcategoria "Men".................passed
 Y agrego 2 unidades del primer producto al carrito..........................passed
-Entonces valido en el popup la confirmación del producto agregado...........passed
-Y valido en el popup que el monto total sea calculado correctamente.........passed
-Cuando finalizo la compra...................................................passed
-Entonces valido el titulo de la pagina del carrito..........................passed
-Y vuelvo a validar el calculo de precios en el carrito......................passed
+Entonces valido en el popup la confirmación del producto agregado...........failed
+Y valido en el popup que el monto total sea calculado correctamente.........skipped
+Cuando finalizo la compra...................................................skipped
+Entonces valido el titulo de la pagina del carrito..........................skipped
+Y vuelvo a validar el calculo de precios en el carrito......................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Product - Store" name="Validación del precio de un producto - Example #1.2" time="30.275">
+<testcase classname="Product - Store" name="Validación del precio de un producto - Example #1.2" time="45.988">
+<failure type="java.lang.AssertionError" message="No se mostró el popup de confirmación">
+<![CDATA[java.lang.AssertionError: No se mostró el popup de confirmación
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.nttdata.stepsdefinitions.ProductStepDefinitions.validoEnElPopupLaConfirmacionDelProductoAgregado(ProductStepDefinitions.java:177)
+	at ✽.valido en el popup la confirmación del producto agregado(file:///C:/Users/USUARIO/IdeaProjects/mystore-automation-web/src/test/resources/features/Product.feature:9)
+]]>
+</failure>
 <system-out><![CDATA[
 Dado estoy en la página de la tienda........................................passed
 Y me logueo con mi usuario "usuario_invalido@test.com" y clave "clave123"...passed
 Cuando navego a la categoria "Clothes" y subcategoria "Men".................passed
 Y agrego 2 unidades del primer producto al carrito..........................passed
-Entonces valido en el popup la confirmación del producto agregado...........passed
-Y valido en el popup que el monto total sea calculado correctamente.........passed
-Cuando finalizo la compra...................................................passed
-Entonces valido el titulo de la pagina del carrito..........................passed
-Y vuelvo a validar el calculo de precios en el carrito......................passed
+Entonces valido en el popup la confirmación del producto agregado...........failed
+Y valido en el popup que el monto total sea calculado correctamente.........skipped
+Cuando finalizo la compra...................................................skipped
+Entonces valido el titulo de la pagina del carrito..........................skipped
+Y vuelvo a validar el calculo de precios en el carrito......................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Product - Store" name="Validación del precio de un producto - Example #1.3" time="38.162">
+<testcase classname="Product - Store" name="Validación del precio de un producto - Example #1.3" time="53.22">
+<failure type="java.lang.AssertionError" message="No se mostró el popup de confirmación">
+<![CDATA[java.lang.AssertionError: No se mostró el popup de confirmación
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.nttdata.stepsdefinitions.ProductStepDefinitions.validoEnElPopupLaConfirmacionDelProductoAgregado(ProductStepDefinitions.java:177)
+	at ✽.valido en el popup la confirmación del producto agregado(file:///C:/Users/USUARIO/IdeaProjects/mystore-automation-web/src/test/resources/features/Product.feature:9)
+]]>
+</failure>
 <system-out><![CDATA[
 Dado estoy en la página de la tienda........................................passed
 Y me logueo con mi usuario "valia.tataje@gmail.com" y clave "Analista2025"..passed
 Cuando navego a la categoria "Autos" y subcategoria "Deportivos"............passed
 Y agrego 1 unidades del primer producto al carrito..........................passed
-Entonces valido en el popup la confirmación del producto agregado...........passed
-Y valido en el popup que el monto total sea calculado correctamente.........passed
-Cuando finalizo la compra...................................................passed
-Entonces valido el titulo de la pagina del carrito..........................passed
-Y vuelvo a validar el calculo de precios en el carrito......................passed
+Entonces valido en el popup la confirmación del producto agregado...........failed
+Y valido en el popup que el monto total sea calculado correctamente.........skipped
+Cuando finalizo la compra...................................................skipped
+Entonces valido el titulo de la pagina del carrito..........................skipped
+Y vuelvo a validar el calculo de precios en el carrito......................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Login - Store" name="Validación del inicio de sesión - Example #1.1" time="17.693">
+<testcase classname="Login - Store" name="Validación del inicio de sesión - Example #1.1" time="14.776">
 <system-out><![CDATA[
 Dado estoy en la página de la tienda........................................passed
 Cuando me logueo con mi usuario "valia.tataje@gmail.com" y clave "Analista2025".passed
 Entonces valido que el login sea "exitoso"..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login - Store" name="Validación del inicio de sesión - Example #1.2" time="16.815">
+<testcase classname="Login - Store" name="Validación del inicio de sesión - Example #1.2" time="15.145">
 <system-out><![CDATA[
 Dado estoy en la página de la tienda........................................passed
 Cuando me logueo con mi usuario "usuario_invalido@test.com" y clave "clave123".passed

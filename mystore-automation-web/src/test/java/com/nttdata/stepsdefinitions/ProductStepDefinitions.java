@@ -167,7 +167,9 @@ public class ProductStepDefinitions {
     public void validoEnElPopupLaConfirmacionDelProductoAgregado() {
         try {
             WebElement popup = wait.until(
-                    ExpectedConditions.visibilityOfElementLocated(By.id("blockcart-modal"))
+                    ExpectedConditions.visibilityOfElementLocated(
+                            By.cssSelector("#blockcart-modal > div > div > div.modal-body > div > div.col-md-5.divide-right > div > div:nth-child(2) > p")
+                    )
             );
             Assert.assertTrue("El popup debe estar visible", popup.isDisplayed());
             System.out.println("Popup de confirmación mostrado");
